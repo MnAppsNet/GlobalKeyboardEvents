@@ -9,7 +9,7 @@ _**public void AddEvent(string name, Keys[] keyStroke, object instance, string m
 * keyStroke : an array of Keys that you want to trigger your event. The order you put the keys in the array matters.
 * instance : an instance from which a method will be called when the event triggered
 * method : the method of the instance that will be invoked when the event triggered
-* parametes : the parameters to pass to the method, pass null if not any
-#### -> You may use the methode AddEvent multiple times to add more than one events
+* parameters : the parameters to pass to the method, pass null if not any
+#### -> You may use the method AddEvent multiple times to add more than one events
 #### -> Use method CaptureKeyboard to start capturing the keyboard keys
 #### -> Use method StopCapturingKeyboard to stop it
